@@ -56,7 +56,6 @@ upi.transactions
 upi.users
 upi.merchants
 upi.fraud
-
 ```
 ---
 
