@@ -14,16 +14,16 @@ Validate raw data before cleaning and analysis
 ------------------------------------------------
 
 SELECT COUNT(*) AS total_users
-FROM users;
+FROM upi.users;
 
 SELECT COUNT(*) AS total_transactions
-FROM transactions;
+FROM upi.transactions;
 
 SELECT COUNT(*) AS total_merchants
-FROM merchants;
+FROM upi.merchants;
 
 SELECT COUNT(*) AS total_fraud_records
-FROM fraud_labels;
+FROM upi.fraud;
 
 
 
@@ -38,7 +38,7 @@ COUNTIF(amount IS NULL) AS null_amount,
 COUNTIF(transaction_timestamp IS NULL) AS null_timestamp,
 COUNTIF(payment_app IS NULL) AS null_payment_app
 
-FROM transactions;
+FROM upi.transactions;
 
 
 
@@ -50,7 +50,7 @@ SELECT
 transaction_id,
 COUNT(*) AS duplicate_count
 
-FROM transactions
+FROM upi.transactions
 
 GROUP BY transaction_id
 
@@ -64,7 +64,7 @@ HAVING COUNT(*) > 1;
 
 SELECT *
 
-FROM transactions
+FROM upi.transactions
 
 WHERE amount<=0;
 
@@ -78,7 +78,7 @@ SELECT
 is_fraud,
 COUNT(*) AS total_transactions
 
-FROM transactions
+FROM upi.transactions
 
 GROUP BY is_fraud;
 
@@ -92,7 +92,7 @@ SELECT
 receiver_type,
 COUNT(*) AS total_transactions
 
-FROM transactions
+FROM upi.transactions
 
 GROUP BY receiver_type;
 
@@ -106,7 +106,7 @@ SELECT
 payment_app,
 COUNT(*) AS total_transactions
 
-FROM transactions
+FROM upi.transactions
 
 GROUP BY payment_app
 
@@ -122,7 +122,7 @@ SELECT
 device_type,
 COUNT(*) AS total_transactions
 
-FROM transactions
+FROM upi.transactions
 
 GROUP BY device_type
 
@@ -138,7 +138,7 @@ SELECT
 kyc_status,
 COUNT(*) AS total_users
 
-FROM users
+FROM upi.users
 
 GROUP BY kyc_status;
 
@@ -152,7 +152,7 @@ SELECT
 category,
 COUNT(*) AS total_merchants
 
-FROM merchants
+FROM upi.merchants
 
 GROUP BY category
 
