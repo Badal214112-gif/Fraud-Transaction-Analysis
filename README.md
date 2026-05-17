@@ -51,12 +51,12 @@ upi
 
 Tables Used:
 
-```
+
 [upi.transactions](https://github.com/Badal214112-gif/Fraud-Transaction-Analysis/blob/main/Dataset/transactions.csv)
 [upi.users](https://github.com/Badal214112-gif/Fraud-Transaction-Analysis/blob/main/Dataset/users.csv)
 [upi.merchants](https://github.com/Badal214112-gif/Fraud-Transaction-Analysis/blob/main/Dataset/merchants.csv)
 [upi.fraud](https://github.com/Badal214112-gif/Fraud-Transaction-Analysis/blob/main/Dataset/fraud_labels.csv)
-```
+
 
 ---
 
