@@ -77,6 +77,7 @@ The project follows a structured analytics workflow:
 ## Dashboard Overview
 
 The dashboard was designed to provide business and fraud monitoring insights.
+[[Dashboard Link]](https://datastudio.google.com/reporting/384f4d14-74c7-49dc-97fa-6e1495f6fee7)
 
 Dashboard includes:
 
