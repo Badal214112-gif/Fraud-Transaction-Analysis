@@ -75,6 +75,9 @@ The project follows a structured analytics workflow:
 ---
 
 ## Dashboard Overview
+<img width="799" height="599" alt="Screenshot 2026-05-20 120003" src="https://github.com/user-attachments/assets/d18e408b-426b-4e4d-8654-9e0ebe3ebf9d" />
+<img width="801" height="594" alt="Screenshot 2026-05-20 120043" src="https://github.com/user-attachments/assets/c9144f69-4184-4d67-a3e9-ebca75816bd1" />
+
 
 The dashboard was designed to provide business and fraud monitoring insights.
 [[Dashboard Link]](https://datastudio.google.com/reporting/384f4d14-74c7-49dc-97fa-6e1495f6fee7)
