@@ -90,6 +90,7 @@ Dashboard includes:
 * Transaction Volume
 * Average Transaction Amount
 * Fraud Rate
+* India Transactions Distribution Map
 
 ### Fraud Analytics
 
@@ -97,6 +98,7 @@ Dashboard includes:
 * Fraud by Device Type
 * Fraud by Payment Application
 * Fraud by User Behavior
+* Fraud by Different Cities and Tier
 
 ### Customer & Merchant Insights
 
